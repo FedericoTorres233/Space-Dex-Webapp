@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Emoji from "./utils/Emoji";
 import githubLogo from "../public/img/logos/githubLogo.png";
 import gmailLogo from "../public/img/logos/gmailLogo.png";
 import telegramLogo from "../public/img/logos/telegramLogo.png";
@@ -10,13 +11,13 @@ export default function MainPageContent() {
     <>
       <div>
         <h1>
-          <strong>Discover Space with me! &#128640</strong>
+          <strong>Discover Space with me! <Emoji symbol="🚀" label="rocket"/></strong>
         </h1>
         <div>{/*content here*/}</div>
       </div>
       <div>
         <h1>
-          <strong>Contact Me! &#128640</strong>
+          <strong>Contact Me! <Emoji symbol="📨" label="rocket"/></strong>
         </h1>
         <h1>
           <ul>
