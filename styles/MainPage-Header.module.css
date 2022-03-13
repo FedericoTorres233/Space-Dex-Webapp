@@ -1,0 +1,29 @@
+.mainpage {
+  transform: translateZ(-9px) scale(2);
+  -webkit-transform: translateZ(-9px) scale(2);
+  -moz-transform: translateZ(-9px) scale(2);
+  -ms-transform: translateZ(-9px) scale(2);
+  -o-transform: translateZ(-9px) scale(2);
+}
+
+.mainpage {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+  bottom: 0;
+}
+.title {
+  box-shadow: 10px 7px 50px;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  transform-style: preserve-3d;
+  z-index: -1;
+}

@@ -1,0 +1,18 @@
+.body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  perspective: 10px;
+}
+
+.section {
+  font-size: 2rem;
+  padding: 2rem;
+  background: rgb(127, 108, 194);
+  color: white;
+}
