@@ -24,7 +24,7 @@ export default function MainPageContent() {
       <div className={classes.contactMe}>
         <h1>
           <strong>
-            Contact Me! <Emoji symbol="📨" label="rocket" />
+            Contact Me! <Emoji symbol="🛰️" label="rocket" />
           </strong>
         </h1>
         <nav>
