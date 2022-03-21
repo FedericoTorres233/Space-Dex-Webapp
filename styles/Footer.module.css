@@ -1,7 +1,7 @@
 .footer {
   min-height: 2.5rem;
-  background-color: black;
-  color: blanchedalmond;
+  background-color: #5f6166;
+  color: black;
   display: grid;
   place-items: center;
 }
