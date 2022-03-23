@@ -61,8 +61,6 @@ export default function MainPageContent() {
             */}
             <li>
               <a
-                target="_blank"
-                rel="noreferrer"
                 href="mailto:federicotorres233@protonmail.com"
               >
                 <Image

@@ -18,7 +18,7 @@ export default function MainPageHeader() {
         <div className={classes.title}>
           <Image src={pageLogo} alt="Page Logo" unoptimized={true}></Image>
         </div>
-        <input type="search" placeholder="Search"/>
+        <input className={classes.search} type="search" placeholder="Search" />
       </header>
     </>
   );
