@@ -3,8 +3,9 @@ import Image from "next/image";
 import mainpage from "../public/img/mainpage.jpg";
 import pageLogo from "../public/img/pageLogo.png";
 import classes from "../styles/MainPage-Header.module.css";
+import SearchBar from "./SearchBar";
 
-export default function MainPageHeader() {
+export default function MainPageHeader({ articles }) {
   return (
     <>
       <header className={classes.header}>
@@ -16,15 +17,9 @@ export default function MainPageHeader() {
           ></Image>
         </div>
         <div className={classes.title}>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href="https://github.com/FedericoTorres233/Space-Dex-Webapp"
-          >
-            <Image src={pageLogo} alt="Page Logo" unoptimized={true}></Image>
-          </a>
+          <Image src={pageLogo} alt="Page Logo" unoptimized={true}></Image>
         </div>
-        <input className={classes.search} type="search" placeholder="Search" />
+        <SearchBar articles={articles} />
       </header>
     </>
   );
