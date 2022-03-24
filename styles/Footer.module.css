@@ -5,3 +5,17 @@
   display: grid;
   place-items: center;
 }
+
+.footer div a{
+  transition: all 0.1s ease 0s;
+  -webkit-transition: all 0.1s ease 0s;
+  -moz-transition: all 0.1s ease 0s;
+  -ms-transition: all 0.1s ease 0s;
+  -o-transition: all 0.1s ease 0s;
+}
+
+
+.footer div a:hover {
+  filter: blur(0.5px);
+  -webkit-filter: blur(0.5px);
+}
