@@ -33,17 +33,3 @@
   z-index: -1;
   flex-direction: column;
 }
-
-.search {
-  font-size: 1rem;
-  padding: 5px 15px;
-  outline: none !important;
-  margin-top: 1rem;
-  background-color: transparent;
-  border-color: transparent;
-  border-bottom-color: blanchedalmond;
-}
-
-.search:focus {
-  border-bottom-color: burlywood;
-}
