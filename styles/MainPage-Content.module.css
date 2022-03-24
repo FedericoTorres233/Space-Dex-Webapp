@@ -31,8 +31,8 @@
 }
 
 .img:hover {
-  filter: blur(1.5px);
-  -webkit-filter: blur(1.5px);
+  filter: opacity(25%);
+  -webkit-filter: opacity(25%);
 }
 
 .contactMe h1 {

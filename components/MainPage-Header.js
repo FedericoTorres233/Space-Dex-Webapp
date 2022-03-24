@@ -16,7 +16,13 @@ export default function MainPageHeader() {
           ></Image>
         </div>
         <div className={classes.title}>
-          <Image src={pageLogo} alt="Page Logo" unoptimized={true}></Image>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/FedericoTorres233/Space-Dex-Webapp"
+          >
+            <Image src={pageLogo} alt="Page Logo" unoptimized={true}></Image>
+          </a>
         </div>
         <input className={classes.search} type="search" placeholder="Search" />
       </header>
