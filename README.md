@@ -1,6 +1,6 @@
 # SpaceDex :rocket:
 
-Mini wiki whose main topic is Space. Learn about Nature and the Universe :stars:.
+Mini wiki whose main topic is Space. Learn about Nature and the Universe 🌌.
 
 ## Tour
 
@@ -20,7 +20,7 @@ I will be adding more features (a comment section for example) in the future.
 
 You can ask me any questions or contribute via _email_: federicotorres233@protonmail.com
 
+<!--
 ## Fix a typo or add new features
-
-<!--There are no posts yet
+There are no posts yet
 You can also contribute submitting a pull request--!>
