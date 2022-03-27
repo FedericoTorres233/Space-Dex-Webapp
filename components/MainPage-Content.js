@@ -1,93 +1,126 @@
 import React from "react";
 import Image from "next/image";
 import Emoji from "./utils/Emoji";
-import githubLogo from "../public/img/logos/githubLogo.png";
-import gmailLogo from "../public/img/logos/gmailLogo.png";
-import telegramLogo from "../public/img/logos/telegramLogo.png";
-import youtubeLogo from "../public/img/logos/youtubeLogo.png";
 import classes from "../styles/MainPage-Content.module.css";
+import ISSgifAnimated from "../public/ISSgifAnimated.gif";
+import SimulationGif from "../public/UniverseSandboxGIFMain.gif";
+import Telegram from "@mui/icons-material/Telegram";
+import GitHub from "@mui/icons-material/GitHub";
+import Email from "@mui/icons-material/Email";
 
 export default function MainPageContent() {
   return (
     <>
       {/*Discover Section */}
-      <div className={classes.discover}>
+      <div className={classes.discoverh1}>
         <h1>
           <strong>
-            Discover Space with me! <Emoji symbol="🚀" label="rocket" />
+            Discover the Universe! <Emoji symbol="🚀" label="rocket" />
           </strong>
         </h1>
-        <div>{/*content here*/}</div>
+        <h4 className={classes.description}>
+          From a single electron to a galaxy, the Universe is complex and full
+          of mysteries. Follow me in this journey and let&apos;s discover every
+          part of it!
+        </h4>
+      </div>
+      <div className={classes.discover}>
+        <div className={classes.code}>
+          <Image
+            height={"650%"}
+            width={"650%"}
+            className={classes.gif}
+            title="ISS trayectory plot"
+            src={ISSgifAnimated}
+            alt="gif"
+            unoptimized={true}
+          />
+          <h4>
+            Animated gifs, graphs and code examples to learn science{" "}
+            <Emoji symbol="🔭" label="science" /> while also learning to code{" "}
+            <Emoji symbol="👨‍💻" label="programmer" />!
+          </h4>
+        </div>
+        <h4 className={classes.sandbox}>
+          Simulations using{" "}
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://universesandbox.com/"
+          >
+            Universe Sandbox 2
+          </a>{" "}
+          <Emoji symbol="🪐" label="saturn" /> and videos{" "}
+          <Emoji symbol="🎥" label="video" />
+        </h4>
+        <div>
+          <Image
+            height={"420%"}
+            width={"880%"}
+            src={SimulationGif}
+            className={classes.SimulationGif}
+            alt="UniverseSandbox2 - GIF"
+            title="UniverseSandbox2 - GIF"
+            unoptimized={true}
+          />
+        </div>
       </div>
 
       {/*Contact Me Section */}
+      <h4 className={classes.contacth4}>
+        <strong>
+          Contribute to this project <Emoji symbol="🛰️" label="rocket" />
+        </strong>
+      </h4>
       <div className={classes.contactMe}>
-        <h1>
-          <strong>
-            Contact Me! <Emoji symbol="🛰️" label="rocket" />
-          </strong>
-        </h1>
         <nav>
           <ul className={classes.contactMeNav}>
             <li>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://github.com/FedericoTorres233"
-              >
-                <Image
-                  height={"150%"}
-                  width={"150%"}
-                  className={classes.img}
-                  src={githubLogo}
-                  alt="github"
-                  unoptimized={true}
-                />
-              </a>
-            </li>
-            {/*
-            <li>
-              <a href="" target="_blank" rel="noreferrer">
-                <Image
-                  height={"150%"}
-                  width={"200%"}
-                  className={classes.img}
-                  src={youtubeLogo}
-                  alt="youtube"
-                  unoptimized={true}
-                />
-              </a>
-            </li>
-            */}
-            <li>
-              <a
-                href="mailto:federicotorres233@protonmail.com"
-              >
-                <Image
-                  height={"150%"}
-                  width={"150%"}
-                  className={classes.img}
-                  src={gmailLogo}
-                  alt="gmail"
-                  unoptimized={true}
-                />
-              </a>
+              <div className={classes.navItems}>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/FedericoTorres233/Space-Dex-Webapp"
+                >
+                  <GitHub
+                    className={classes.img}
+                    alt="github"
+                    title="Send a pull request"
+                    sx={{ color: "gray", fontSize: 100 }}
+                  />
+                </a>
+                <h5>Pull Request</h5>
+              </div>
             </li>
             <li>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://t.me/federicotorres"
-              >
-                <Image
-                  height={"150%"}
-                  width={"150%"}
-                  className={classes.img}
-                  src={telegramLogo}
-                  alt="telegram"
-                  unoptimized={true}
-                />
-              </a>
+              <div className={classes.navItems}>
+                <a href="mailto:federicotorres233@protonmail.com">
+                  <Email
+                    className={classes.img}
+                    alt="gmail"
+                    title="Email me"
+                    sx={{ color: "gray", fontSize: 100 }}
+                  />
+                </a>
+                <h5>Email me</h5>
+              </div>
+            </li>
+            <li>
+              <div className={classes.navItems}>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://t.me/federicotorres"
+                >
+                  <Telegram
+                    className={classes.img}
+                    alt="telegram"
+                    title="Send me a message"
+                    sx={{ color: "gray", fontSize: 100 }}
+                  />
+                </a>
+                <h5>Send message</h5>
+              </div>
             </li>
           </ul>
         </nav>
