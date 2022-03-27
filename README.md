@@ -1,4 +1,4 @@
-# SpaceDex :rocket:
+# [SpaceDex](https://spacedex-webapp.herokuapp.com/) :rocket:
 
 Mini wiki whose main topic is Space. Learn about Nature and the Universe 🌌.
 
