@@ -11,8 +11,16 @@ export default function Footer() {
           rel="noreferrer"
           href="https://github.com/FedericoTorres233/Space-Dex-Webapp"
         >
-          SpaceDex <Emoji symbol="☄️" label="rocket" /> - A non profitable
-          project by Federico Torres
+          <strong>SpaceDex </strong>
+          <Emoji symbol="☄️" label="rocket" />{" "}
+        </a>
+        - A project by{" "}
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/FedericoTorres233"
+        >
+          <strong>Federico Torres</strong>
         </a>
       </div>
     </footer>
