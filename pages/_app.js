@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
         <title>SpaceDex</title>
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" type="image/x-icon" href="../public/favicon.ico" />
+        <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
       <main>
         <Component {...pageProps} />
