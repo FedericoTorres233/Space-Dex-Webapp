@@ -1,4 +1,4 @@
-import React from "react";
+import React, { FC } from "react";
 import Image from "next/image";
 import Emoji from "./utils/Emoji";
 import classes from "../styles/MainPage-Content.module.css";
@@ -8,7 +8,7 @@ import Telegram from "@mui/icons-material/Telegram";
 import GitHub from "@mui/icons-material/GitHub";
 import Email from "@mui/icons-material/Email";
 
-export default function MainPageContent() {
+const MainPageContent: FC = () => {
   return (
     <>
       {/*Discover Section */}
@@ -83,6 +83,7 @@ export default function MainPageContent() {
                   href="https://github.com/FedericoTorres233/Space-Dex-Webapp"
                 >
                   <GitHub
+                  component={}
                     className={classes.img}
                     alt="github"
                     title="Send a pull request"
@@ -127,4 +128,6 @@ export default function MainPageContent() {
       </div>
     </>
   );
-}
+};
+
+export default MainPageContent;

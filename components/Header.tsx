@@ -1,6 +1,9 @@
+import { NextPage } from "next";
+import { FC } from "react";
+
 // Header de los articulos
-export default function Header() {
-  return (
-    <div>Header</div>
-  )
-}
+const Header: FC = () => {
+  return <div>Header</div>;
+};
+
+export default Header;

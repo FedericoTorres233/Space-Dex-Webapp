@@ -5,9 +5,24 @@ import Footer from "../components/Footer";
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
+import type { GetStaticProps } from "next";
+import type { NextPage } from "next";
 
+interface ArticleProps {
+  articles: object;
+}
+
+interface HomeProps {
+  articles: [];
+}
+
+/*
+{
+  articles,
+}: InferGetStaticPropsType<typeof getStaticProps>)
+*/
 // Index page
-export default function Home({ articles }) {
+const Home: NextPage<HomeProps> = ({ articles }) => {
   return (
     <>
       <body className={classes.body}>
@@ -21,9 +36,10 @@ export default function Home({ articles }) {
       </body>
     </>
   );
-}
+};
+export default Home;
 
-export async function getStaticProps() {
+export const getStaticProps: GetStaticProps<ArticleProps> = async () => {
   // Get files from posts directory
   const files = fs.readdirSync(path.join("articles"));
 
@@ -50,4 +66,4 @@ export async function getStaticProps() {
       articles: articles,
     },
   };
-}
+};

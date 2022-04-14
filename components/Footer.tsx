@@ -1,8 +1,9 @@
 // Footer general
+import { FC } from "react";
 import classes from "../styles/Footer.module.css";
 import Emoji from "./utils/Emoji";
 
-export default function Footer() {
+const Footer: FC = () => {
   return (
     <footer className={classes.footer}>
       <div>
@@ -25,4 +26,6 @@ export default function Footer() {
       </div>
     </footer>
   );
-}
+};
+
+export default Footer;
