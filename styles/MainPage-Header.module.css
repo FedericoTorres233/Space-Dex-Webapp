@@ -1,4 +1,10 @@
 .mainpage {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+  bottom: 0;
   transform: translateZ(-9px) scale(2);
   -webkit-transform: translateZ(-9px) scale(2);
   -moz-transform: translateZ(-9px) scale(2);
@@ -6,21 +12,21 @@
   -o-transform: translateZ(-9px) scale(2);
 }
 
-.mainpage {
-  position: absolute;
-  height: 100%;
-  width: 100%;
+.video {
   object-fit: cover;
-  z-index: -1;
-  bottom: 0;
+  height: 100vh;
+  width: 100vw;
 }
+
 .title {
-  box-shadow: 10px 7px 50px;
-  border-radius: 50px;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  -ms-border-radius: 50px;
-  -o-border-radius: 50px;
+  filter: opacity(70%);
+  box-shadow: 0px 0px 70px;
+  border-radius: 140px;
+  -webkit-border-radius: 140px;
+  -moz-border-radius: 140px;
+  -ms-border-radius: 140px;
+  -o-border-radius: 140px;
+  -webkit-filter: opacity(70%);
 }
 
 .header {
