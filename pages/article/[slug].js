@@ -1,8 +1,8 @@
-import ArticleHeader from "../../components/ArticleHeader";
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
-import { marked } from "marked";
+import ArticleHeader from "../../components/ArticleHeader";
+import ArticleContent from "../../components/ArticleContent";
 
 export default function ArticlePage({
   frontmatter: { title, date, author, github },
@@ -12,9 +12,7 @@ export default function ArticlePage({
   return (
     <>
       <ArticleHeader />
-      <div>
-        <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>;
-      </div>
+      <ArticleContent content={content}/>
     </>
   );
 }
