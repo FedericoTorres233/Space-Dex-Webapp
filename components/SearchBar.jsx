@@ -2,7 +2,7 @@ import { useState } from "react";
 import classes from "../styles/SearchBar.module.css";
 import Link from "next/link";
 
-function SearchBar({ articles }) {
+export default function SearchBar({ articles }) {
   const [filterData, setFilteredData] = useState([]);
 
   const handleFilter = (event) => {
@@ -47,5 +47,3 @@ function SearchBar({ articles }) {
     </>
   );
 }
-
-export default SearchBar;

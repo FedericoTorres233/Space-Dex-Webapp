@@ -3,7 +3,7 @@ import "../styles/globals.css";
 import Footer from "../components/Footer";
 
 // Wrapper
-function MyApp({ Component, pageProps }) {
+export default function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
@@ -19,5 +19,3 @@ function MyApp({ Component, pageProps }) {
     </>
   );
 }
-
-export default MyApp;
