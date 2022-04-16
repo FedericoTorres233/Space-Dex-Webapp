@@ -16,7 +16,6 @@ export default function Home({ articles }) {
           <div className={classes.section}>
             <MainPageContent />
           </div>
-          <Footer />
         </div>
       </body>
     </>
