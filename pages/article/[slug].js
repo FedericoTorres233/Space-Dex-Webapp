@@ -1,3 +1,4 @@
+import ArticleHeader from "../../components/Header";
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
@@ -10,6 +11,7 @@ export default function ArticlePage({
 }) {
   return (
     <>
+      <ArticleHeader />
       <div>
         <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>;
       </div>
