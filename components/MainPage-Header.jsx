@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 import pageLogo from "../public/img/pageLogo.png";
 import classes from "../styles/MainPage-Header.module.css";

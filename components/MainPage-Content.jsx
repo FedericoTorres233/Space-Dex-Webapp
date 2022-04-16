@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 import Emoji from "./utils/Emoji";
 import classes from "../styles/MainPage-Content.module.css";
