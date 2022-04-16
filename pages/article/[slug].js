@@ -1,4 +1,4 @@
-import ArticleHeader from "../../components/Header";
+import ArticleHeader from "../../components/ArticleHeader";
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";

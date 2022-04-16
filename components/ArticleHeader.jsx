@@ -1,5 +1,5 @@
 // Header de los articulos
-export default function Header() {
+export default function ArticleHeader() {
   return (
     <div>Header</div>
   )
