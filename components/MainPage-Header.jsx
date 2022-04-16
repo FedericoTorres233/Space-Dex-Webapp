@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import mainpage from "../public/img/mainpageimg.jpg";
 import pageLogo from "../public/img/pageLogo.png";
 import classes from "../styles/MainPage-Header.module.css";
 import SearchBar from "./SearchBar";
