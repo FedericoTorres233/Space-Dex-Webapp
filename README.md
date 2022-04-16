@@ -1,4 +1,4 @@
-# [SpaceDex](https://spacedex-webapp.herokuapp.com/) :rocket:
+# [SpaceDex](https://spacedex.vercel.app/) :rocket:
 
 Mini wiki whose main topic is Space. Learn about Nature and the Universe 🌌.
 
@@ -23,4 +23,4 @@ You can ask me any questions or contribute via _email_: federicotorres233@proton
 <!--
 ## Fix a typo or add new features
 There are no posts yet
-You can also contribute submitting a pull request--!>
+You can also contribute submitting a pull request-->
