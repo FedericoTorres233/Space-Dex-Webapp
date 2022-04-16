@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import classes from "../styles/SearchBar.module.css";
+import Link from "next/link";
 
 function SearchBar({ articles }) {
   const [filterData, setFilteredData] = useState([]);
@@ -33,9 +34,11 @@ function SearchBar({ articles }) {
           <div className={classes.dataResult}>
             {filterData.map((article, index) => {
               return (
-                <a className={classes.dataItem} key={index} href="">
-                  <p>{article.frontmatter.title}</p>
-                </a>
+                <Link href={`/article/${article.slug}`} key={index}>
+                  <a className={classes.dataItem}>
+                    <p>{article.frontmatter.title}</p>{" "}
+                  </a>
+                </Link>
               );
             })}
           </div>
