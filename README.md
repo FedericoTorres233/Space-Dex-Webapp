@@ -1,4 +1,14 @@
+<div align="center">
+
+![spacedexgif](https://user-images.githubusercontent.com/80338247/164950886-3f81ccfe-b7a4-44f1-b138-a83868493cc0.gif)
+
+</div>
+
+<div align="center">
+
 # [SpaceDex](https://spacedex.vercel.app/) :rocket:
+
+</div>
 
 Mini wiki whose main topic is Space. Learn about Nature and the Universe 🌌.
 
