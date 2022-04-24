@@ -3,6 +3,7 @@ import path from "path";
 import matter from "gray-matter";
 import ArticleHeader from "../../components/ArticleHeader";
 import ArticleContent from "../../components/ArticleContent";
+import Footer from "../components/Footer";
 
 export default function ArticlePage({
   frontmatter: { title, date, author, github },
@@ -12,7 +13,8 @@ export default function ArticlePage({
   return (
     <>
       <ArticleHeader />
-      <ArticleContent content={content}/>
+      <ArticleContent content={content} />
+      <Footer />
     </>
   );
 }

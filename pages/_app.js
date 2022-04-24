@@ -1,6 +1,5 @@
 import Head from "next/head";
 import "../styles/globals.css";
-import Footer from "../components/Footer";
 
 // Wrapper
 export default function MyApp({ Component, pageProps }) {
@@ -14,7 +13,6 @@ export default function MyApp({ Component, pageProps }) {
       </Head>
       <main>
         <Component {...pageProps} />
-        <Footer />
       </main>
     </>
   );
