@@ -1,6 +1,6 @@
 <div align="center">
 
-![spacedexgif](https://user-images.githubusercontent.com/80338247/164950886-3f81ccfe-b7a4-44f1-b138-a83868493cc0.gif)
+<img src="https://user-images.githubusercontent.com/80338247/164950886-3f81ccfe-b7a4-44f1-b138-a83868493cc0.gif" width="720" height="480">
 
 </div>
 
