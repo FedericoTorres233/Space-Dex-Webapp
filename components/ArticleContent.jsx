@@ -1,9 +1,14 @@
 import { marked } from "marked";
+import emoji from "node-emoji";
 
 export default function ArticleContent({ content }) {
   return (
-    <div>
-      <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>;
-    </div>
+    <div
+      dangerouslySetInnerHTML={{
+        __html: marked(
+          content.replace(/(:.*:)/g, (match) => emoji.emojify(match))
+        ),
+      }}
+    ></div>
   );
 }
