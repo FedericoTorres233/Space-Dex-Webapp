@@ -1,7 +1,6 @@
 import MainPageHeader from "../components/MainPage-Header";
 import MainPageContent from "../components/MainPage-Content";
 import classes from "../styles/Index.module.css";
-import Footer from "../components/Footer";
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
