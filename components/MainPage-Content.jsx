@@ -14,7 +14,7 @@ export default function MainPageContent() {
       <div className={classes.discoverh1}>
         <h1>
           <strong>
-            Discover the Universe! <Emoji symbol="🚀" label="rocket" />
+            Discover the Universe! <Emoji symbol=":rocket:"/>
           </strong>
         </h1>
         <h4 className={classes.description}>
@@ -36,8 +36,8 @@ export default function MainPageContent() {
           />
           <h4>
             Animated gifs, graphs and code examples to learn science{" "}
-            <Emoji symbol="🔭" label="science" /> while also learning to code{" "}
-            <Emoji symbol="👨‍💻" label="programmer" />!
+            <Emoji symbol=":telescope:"/> while also learning to code{" "}
+            <Emoji symbol=":male-technologist:"/>!
           </h4>
         </div>
         <h4 className={classes.sandbox}>
@@ -49,8 +49,8 @@ export default function MainPageContent() {
           >
             Universe Sandbox 2
           </a>{" "}
-          <Emoji symbol="🪐" label="saturn" /> and videos{" "}
-          <Emoji symbol="🎥" label="video" />
+          <Emoji symbol=":ringed_planet:"/> and videos{" "}
+          <Emoji symbol=":movie_camera:"/>
         </h4>
         <div>
           <Image

@@ -12,7 +12,7 @@ export default function Footer() {
           href="https://github.com/FedericoTorres233/Space-Dex-Webapp"
         >
           <strong>SpaceDex </strong>
-          <Emoji symbol="☄️" label="rocket" />{" "}
+          <Emoji symbol=":comet:"/>{" "}
         </a>
         - A project by{" "}
         <a
