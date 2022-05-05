@@ -32,16 +32,15 @@
 }
 
 .img {
-  transition: all 0.1s ease 0s;
-  -webkit-transition: all 0.1s ease 0s;
-  -moz-transition: all 0.1s ease 0s;
-  -ms-transition: all 0.1s ease 0s;
-  -o-transition: all 0.1s ease 0s;
+  transition: all 0.3s ease-in-out 0.1s;
+  -webkit-transition: all 0.3s ease-in-out 0.1s;
+  -moz-transition: all 0.3s ease-in-out 0.1s;
+  -ms-transition: all 0.3s ease-in-out 0.1s;
+  -o-transition: all 0.3s ease-in-out 0.1s;
 }
 
 .img:hover {
-  filter: blur(1px);
-  -webkit-filter: blur(1px);
+  color: white
 }
 
 .code {
