@@ -104,6 +104,6 @@
 .navItems{
   display: grid;
   place-items: center;
-  color: #252736;
+  color: hsl(233, 19%, 50%);
   font-size: 3rem;
 }
