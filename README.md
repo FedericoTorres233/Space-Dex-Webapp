@@ -26,7 +26,26 @@ I will be adding more features (a comment section for example) in the future.
 
 You can ask me any questions or contribute via _email_: federicotorres233@protonmail.com
 
-<!--
-## Fix a typo or add new features
-There are no posts yet
-You can also contribute submitting a pull request-->
+## TODO
+
+- Comment section
+
+- Use tailwind everywhere
+
+- Loading icon
+
+- Code page
+
+- About page
+
+- Use react-spring for parallax effect
+
+- Make footer look fairly nice
+
+- Add a database to store images and videos
+
+- Make mainpage content component look fairly nice
+
+- Add search icon to search bar component
+
+- Add more posts
