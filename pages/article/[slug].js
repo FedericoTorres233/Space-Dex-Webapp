@@ -11,11 +11,11 @@ export default function ArticlePage({
   content,
 }) {
   return (
-    <>
+    <div className="bg-slate-300 p-0 m-0">
       <ArticleHeader />
       <ArticleContent content={content} />
       <Footer />
-    </>
+    </div>
   );
 }
 
