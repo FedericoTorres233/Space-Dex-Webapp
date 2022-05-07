@@ -79,7 +79,7 @@ export default function MainPageContent() {
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href="https://github.com/FedericoTorres233/Space-Dex-Webapp"
+                  href="https://github.com/FedericoTorres233/spacedex"
                 >
                   <GitHub
                     className={classes.img}
