@@ -14,7 +14,7 @@ export default function MainPageContent() {
       <div className={classes.discoverh1}>
         <h1>
           <strong>
-            Discover the Universe! <Emoji symbol=":rocket:"/>
+            Discover the Universe! <Emoji symbol=":rocket:" />
           </strong>
         </h1>
         <h4 className={classes.description}>
@@ -36,8 +36,8 @@ export default function MainPageContent() {
           />
           <h4>
             Animated gifs, graphs and code examples to learn science{" "}
-            <Emoji symbol=":telescope:"/> while also learning to code{" "}
-            <Emoji symbol=":male-technologist:"/>!
+            <Emoji symbol=":telescope:" /> while also learning to code{" "}
+            <Emoji symbol=":male-technologist:" />!
           </h4>
         </div>
         <h4 className={classes.sandbox}>
@@ -49,8 +49,8 @@ export default function MainPageContent() {
           >
             Universe Sandbox 2
           </a>{" "}
-          <Emoji symbol=":ringed_planet:"/> and videos{" "}
-          <Emoji symbol=":movie_camera:"/>
+          <Emoji symbol=":ringed_planet:" /> and videos{" "}
+          <Emoji symbol=":movie_camera:" />
         </h4>
         <div>
           <Image
@@ -68,7 +68,7 @@ export default function MainPageContent() {
       {/*Contact Me Section */}
       <h4 className={classes.contacth4}>
         <strong>
-          Contribute to this project <Emoji symbol="🛰️" label="rocket" />
+          Contribute to this project <Emoji symbol=":satellite:" />
         </strong>
       </h4>
       <div className={classes.contactMe}>
@@ -86,7 +86,7 @@ export default function MainPageContent() {
                     alt="github"
                     title="Send a pull request"
                     sx={{ color: "gray", fontSize: 100 }}
-                  />
+            />
                 </a>
                 <h5>Pull Request</h5>
               </div>
@@ -99,7 +99,7 @@ export default function MainPageContent() {
                     alt="gmail"
                     title="Email me"
                     sx={{ color: "gray", fontSize: 100 }}
-                  />
+            />
                 </a>
                 <h5>Email me</h5>
               </div>
@@ -116,7 +116,7 @@ export default function MainPageContent() {
                     alt="telegram"
                     title="Send me a message"
                     sx={{ color: "gray", fontSize: 100 }}
-                  />
+            />
                 </a>
                 <h5>Send message</h5>
               </div>
