@@ -82,7 +82,7 @@ export default function MainPageContent() {
                   href="https://github.com/FedericoTorres233/spacedex"
                 >
                   <GitHub
-                    className={classes.img}
+                    className="hover:text-white transition-all ease-in-out"
                     alt="github"
                     title="Send a pull request"
                     sx={{ color: "gray", fontSize: 100 }}
@@ -95,7 +95,7 @@ export default function MainPageContent() {
               <div className={classes.navItems}>
                 <a href="mailto:federicotorres233@protonmail.com">
                   <Email
-                    className={classes.img}
+                    className="hover:text-white transition-all ease-in-out"
                     alt="gmail"
                     title="Email me"
                     sx={{ color: "gray", fontSize: 100 }}
@@ -112,7 +112,7 @@ export default function MainPageContent() {
                   href="https://t.me/federicotorres"
                 >
                   <Telegram
-                    className={classes.img}
+                    className="hover:text-white transition-all ease-in-out"
                     alt="telegram"
                     title="Send me a message"
                     sx={{ color: "gray", fontSize: 100 }}

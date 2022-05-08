@@ -1,9 +1,12 @@
 module.exports = {
   content: [
-    "./pages/article/**/*.{js,ts,jsx,tsx}",
+    "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    transitionDuration: {
+      DEFAULT: '300ms'
+    },
     extend: {},
   },
   plugins: [require("@tailwindcss/typography")],

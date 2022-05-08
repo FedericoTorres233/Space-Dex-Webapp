@@ -31,18 +31,6 @@
   list-style: none;
 }
 
-.img {
-  transition: all 0.3s ease-in-out 0.1s;
-  -webkit-transition: all 0.3s ease-in-out 0.1s;
-  -moz-transition: all 0.3s ease-in-out 0.1s;
-  -ms-transition: all 0.3s ease-in-out 0.1s;
-  -o-transition: all 0.3s ease-in-out 0.1s;
-}
-
-.img:hover {
-  color: white
-}
-
 .code {
   display: flex;
   justify-content: space-between;
