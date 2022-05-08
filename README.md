@@ -2,7 +2,7 @@
 
 <img src="https://user-images.githubusercontent.com/80338247/164950886-3f81ccfe-b7a4-44f1-b138-a83868493cc0.gif" width="3840" height="480">
 
-# [SpaceDex](https://spacedex.vercel.app/) :rocket:
+# [SpaceDex](https://spacedex.ga) :rocket:
 
 Mini wiki whose main topic is Space. Learn about Nature and the Universe 🌌.
 
