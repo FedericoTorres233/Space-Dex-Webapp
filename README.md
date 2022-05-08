@@ -42,7 +42,7 @@ You can ask me any questions or contribute via _email_: federicotorres233@proton
 
 - Make footer look fairly nice
 
-- Add a database to store images and videos
+- Store images and videos in the cloud
 
 - Make mainpage content component look fairly nice
 
