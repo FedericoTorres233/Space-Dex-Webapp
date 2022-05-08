@@ -3,9 +3,7 @@ import Emoji from "./utils/Emoji";
 import classes from "../styles/MainPage-Content.module.css";
 import ISSgifAnimated from "../public/ISSgifAnimated.gif";
 import SimulationGif from "../public/UniverseSandboxGIFMain.gif";
-import Telegram from "@mui/icons-material/Telegram";
-import GitHub from "@mui/icons-material/GitHub";
-import Email from "@mui/icons-material/Email";
+import ContactItem from "./ContactItem";
 
 export default function MainPageContent() {
   return (
@@ -74,53 +72,24 @@ export default function MainPageContent() {
       <div className={classes.contactMe}>
         <nav>
           <ul className={classes.contactMeNav}>
-            <li>
-              <div className={classes.navItems}>
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://github.com/FedericoTorres233/spacedex"
-                >
-                  <GitHub
-                    className="hover:text-white transition-all ease-in-out"
-                    alt="github"
-                    title="Send a pull request"
-                    sx={{ color: "gray", fontSize: 100 }}
+            <ContactItem
+              type={"github"}
+              text_below={"Pull Request"}
+              title={"Send a pull request"}
+              link={"https://github.com/FedericoTorres233/spacedex"}
             />
-                </a>
-                <h5>Pull Request</h5>
-              </div>
-            </li>
-            <li>
-              <div className={classes.navItems}>
-                <a href="mailto:federicotorres233@protonmail.com">
-                  <Email
-                    className="hover:text-white transition-all ease-in-out"
-                    alt="gmail"
-                    title="Email me"
-                    sx={{ color: "gray", fontSize: 100 }}
+            <ContactItem
+              type={"gmail"}
+              text_below={"Email"}
+              title={"Email"}
+              link={"mailto:federicotorres233@protonmail.com"}
             />
-                </a>
-                <h5>Email me</h5>
-              </div>
-            </li>
-            <li>
-              <div className={classes.navItems}>
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://t.me/federicotorres"
-                >
-                  <Telegram
-                    className="hover:text-white transition-all ease-in-out"
-                    alt="telegram"
-                    title="Send me a message"
-                    sx={{ color: "gray", fontSize: 100 }}
+            <ContactItem
+              type={"telegram"}
+              text_below={"Send message"}
+              title={"Send me a message"}
+              link={"https://t.me/federicotorres"}
             />
-                </a>
-                <h5>Send message</h5>
-              </div>
-            </li>
           </ul>
         </nav>
       </div>

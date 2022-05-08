@@ -88,10 +88,3 @@
   -ms-border-radius: 50px;
   -o-border-radius: 50px;
 }
-
-.navItems{
-  display: grid;
-  place-items: center;
-  color: hsl(233, 19%, 50%);
-  font-size: 3rem;
-}
