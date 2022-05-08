@@ -4,6 +4,7 @@ import matter from "gray-matter";
 import ArticleHeader from "../../components/ArticleHeader";
 import ArticleContent from "../../components/ArticleContent";
 import Footer from "../../components/Footer";
+import Head from "next/head";
 
 export default function ArticlePage({
   frontmatter: { title, date, author, github },
@@ -11,11 +12,16 @@ export default function ArticlePage({
   content,
 }) {
   return (
-    <div className="bg-slate-300 p-0 m-0">
-      <ArticleHeader />
-      <ArticleContent content={content} />
-      <Footer />
-    </div>
+    <>
+      <Head>
+        <title>{title} - SpaceDex</title>
+      </Head>
+      <div className="bg-slate-300 p-0 m-0">
+        <ArticleHeader />
+        <ArticleContent content={content} />
+        <Footer />
+      </div>
+    </>
   );
 }
 
