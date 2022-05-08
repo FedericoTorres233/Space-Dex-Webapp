@@ -4,10 +4,16 @@ import Email from "@mui/icons-material/Email";
 
 export default function ContactItem({ type, title, link, text_below }) {
   const props = {
-    className: "hover:text-white transition-all ease-in-out",
     alt: { type },
     title: { title },
-    sx: { color: "gray", fontSize: 100 },
+    sx: {
+      color: "gray",
+      fontSize: 100,
+      "&:hover": {
+        color: "white",
+      },
+      transition: "all 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms",
+    },
   };
   return (
     <li>
