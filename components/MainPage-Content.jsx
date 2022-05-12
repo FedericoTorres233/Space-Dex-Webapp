@@ -3,7 +3,7 @@ import Emoji from "./utils/Emoji";
 import classes from "../styles/MainPage-Content.module.css";
 import ISSgifAnimated from "../public/ISSgifAnimated.gif";
 import SimulationGif from "../public/UniverseSandboxGIFMain.gif";
-import ContactItem from "./ContactItem";
+import Contribute from "./Contribute";
 
 export default function MainPageContent() {
   return (
@@ -62,37 +62,7 @@ export default function MainPageContent() {
           />
         </div>
       </div>
-
-      {/*Contact Me Section */}
-      <h4 className={classes.contacth4}>
-        <strong>
-          Contribute to this project <Emoji symbol=":satellite:" />
-        </strong>
-      </h4>
-      <div className={classes.contactMe}>
-        <nav>
-          <ul className={classes.contactMeNav}>
-            <ContactItem
-              type={"github"}
-              text_below={"Pull Request"}
-              title={"Send a pull request"}
-              link={"https://github.com/FedericoTorres233/spacedex"}
-            />
-            <ContactItem
-              type={"gmail"}
-              text_below={"Email"}
-              title={"Email"}
-              link={"mailto:federicotorres233@protonmail.com"}
-            />
-            <ContactItem
-              type={"telegram"}
-              text_below={"Send message"}
-              title={"Send me a message"}
-              link={"https://t.me/federicotorres"}
-            />
-          </ul>
-        </nav>
-      </div>
+      <Contribute classes={classes} />
     </>
   );
 }
