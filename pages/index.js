@@ -22,15 +22,11 @@ export default function Home({ articles }) {
 
         <ParallaxLayer
           offset={1}
-          speed={2}
+          speed={0.5}
           style={{ backgroundColor: "#15151c" }}
         ></ParallaxLayer>
 
-        <ParallaxLayer offset={1} speed={0.5}>
-          <div className="text-7xl py-8 px-12 bg-[#15151c] text-black">
-            <MainPageContent />
-          </div>
-        </ParallaxLayer>
+        <MainPageContent />
       </Parallax>
     </body>
   );
