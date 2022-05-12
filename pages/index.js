@@ -9,16 +9,22 @@ import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 export default function Home({ articles }) {
   return (
     <body className="m-0 p-0 bg-[#15151c] top-0 left-0">
-      <Parallax pages={4}>
-        <ParallaxLayer offset={0} speed={0.5} factor={1}>
-          <video muted autoPlay loop className="object-cover">
+      <Parallax pages={5}>
+        <ParallaxLayer offset={0} speed={0.2} factor={1.5}>
+          <video muted autoPlay loop className="object-cover h-screen w-screen">
             <source src="/videos/MainPageVideo.mp4" />
           </video>
         </ParallaxLayer>
 
-        <ParallaxLayer offset={0} speed={1}>
+        <ParallaxLayer offset={0} speed={2.5}>
           <MainPageHeader articles={articles} />
         </ParallaxLayer>
+
+        <ParallaxLayer
+          offset={1}
+          speed={2}
+          style={{ backgroundColor: "#15151c" }}
+        ></ParallaxLayer>
 
         <ParallaxLayer offset={1} speed={0.5}>
           <div className="text-7xl py-8 px-12 bg-[#15151c] text-black">
