@@ -7,11 +7,6 @@ export default function MainPageHeader({ articles }) {
   return (
     <>
       <header className={classes.header}>
-        <div className={classes.mainpage}>
-          <video muted autoPlay loop className={classes.video}>
-            <source src="/videos/MainPageVideo.mp4" />
-          </video>
-        </div>
         <div className={classes.title}>
           <Image src={pageLogo} alt="Page Logo" unoptimized={true}></Image>
         </div>

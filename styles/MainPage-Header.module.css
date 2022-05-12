@@ -12,12 +12,6 @@
   -o-transform: translateZ(-9px) scale(2);
 }
 
-.video {
-  object-fit: cover;
-  height: 100vh;
-  width: 100vw;
-}
-
 .title {
   filter: opacity(70%);
   box-shadow: 0px 0px 70px;

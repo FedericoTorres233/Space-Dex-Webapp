@@ -11,9 +11,11 @@ export default function Home({ articles }) {
   return (
     <body className={classes.wrapper}>
       <Parallax pages={4}>
-    <>
-      <body className={classes.body}>
-        <div className={classes.wrapper}>
+        <ParallaxLayer offset={0} speed={0.5} factor={1}>
+          <video muted autoPlay loop className="object-cover">
+            <source src="/videos/MainPageVideo.mp4" />
+          </video>
+        </ParallaxLayer>
 
         <ParallaxLayer offset={0} speed={1}>
           <MainPageHeader articles={articles} />
