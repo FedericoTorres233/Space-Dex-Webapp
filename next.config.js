@@ -9,7 +9,7 @@ module.exports = {
   redirects() {
     return [
       process.env.MAINTENANCE_MODE === "true"
-        ? { source: "/((?!maintenance).*)", destination: "/maintenance.html", permanent: false }
+        ? { source: "/((?!maintenance).*)", destination: "/maintenance", permanent: false }
         : null,
     ].filter(Boolean);
   }
