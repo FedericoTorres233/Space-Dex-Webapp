@@ -1,5 +1,5 @@
-import MainPageHeader from "../components/MainPage-Header";
-import MainPageContent from "../components/MainPage-Content";
+import MainPageHeader from "../components/mainpage/MainPage-Header";
+import MainPageContent from "../components/mainpage/MainPage-Content";
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";

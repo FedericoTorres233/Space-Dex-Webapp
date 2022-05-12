@@ -1,4 +1,4 @@
-import classes from "../styles/MainPage-Content.module.css";
+import classes from "../../styles/MainPage-Content.module.css";
 import Contribute from "./Contribute";
 import DiscoverSection from "./DiscoverSection";
 

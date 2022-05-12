@@ -1,8 +1,8 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
-import ArticleHeader from "../../components/ArticleHeader";
-import ArticleContent from "../../components/ArticleContent";
+import ArticleHeader from "../../components/articlepage/ArticleHeader";
+import ArticleContent from "../../components/articlepage/ArticleContent";
 import Footer from "../../components/Footer";
 import Head from "next/head";
 

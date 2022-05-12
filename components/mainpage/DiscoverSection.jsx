@@ -1,6 +1,6 @@
-import SimulationGif from "../public/UniverseSandboxGIFMain.gif";
-import ISSgifAnimated from "../public/ISSgifAnimated.gif";
-import Emoji from "./utils/Emoji";
+import SimulationGif from "../../public/UniverseSandboxGIFMain.gif";
+import ISSgifAnimated from "../../public/ISSgifAnimated.gif";
+import Emoji from "../utils/Emoji";
 import Image from "next/image";
 
 export default function DiscoverSection({ classes }) {

@@ -1,6 +1,6 @@
 import Image from "next/image";
-import pageLogo from "../public/img/pageLogo.png";
-import SearchBar from "./SearchBar";
+import pageLogo from "../../public/img/pageLogo.png";
+import SearchBar from "../SearchBar";
 
 export default function MainPageHeader({ articles }) {
   return (

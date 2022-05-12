@@ -1,5 +1,5 @@
 import ContactItem from "./ContactItem";
-import Emoji from "./utils/Emoji";
+import Emoji from "../utils/Emoji";
 
 export default function Contribute({classes}) {
   return (
