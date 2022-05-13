@@ -3,41 +3,42 @@ import ISSgifAnimated from "../../public/ISSgifAnimated.gif";
 import Emoji from "../utils/Emoji";
 import Image from "next/image";
 
-export default function DiscoverSection({ classes }) {
+export default function DiscoverSection() {
   return (
     <>
-      <div className={classes.discoverh1}>
+      <div className="py-28 px-2 grid place-items-center text-[#f0ffff] text-5xl">
         <h1>
           <strong>
             Discover the Universe! <Emoji symbol=":rocket:" />
           </strong>
         </h1>
-        <h4 className={classes.description}>
+        <h4 className="text-[#bd5eab] py-3 px-1 text-center">
           From a single electron to a galaxy, the Universe is complex and full
           of mysteries. Follow me in this journey and let&apos;s discover every
           part of it!
         </h4>
       </div>
-      <div className={classes.discover}>
-        <div className={classes.code}>
+      <div className="py-20 px-8 bg-[#252736] w-full mb-8 grid place-items-center text-4xl shadow-lg shadow-black">
+        <div className="flex justify-between text-center p-4">
           <Image
             height={"650%"}
             width={"650%"}
-            className={classes.gif}
+            className="rounded-[50px]"
             title="ISS trayectory plot"
             src={ISSgifAnimated}
             alt="gif"
             unoptimized={true}
           />
-          <h4>
+          <h4 className="pl-20 grid place-items-center text-[#c38fd3]">
             Animated gifs, graphs and code examples to learn science{" "}
             <Emoji symbol=":telescope:" /> while also learning to code{" "}
             <Emoji symbol=":male-technologist:" />!
           </h4>
         </div>
-        <h4 className={classes.sandbox}>
+        <h4 className="text-[#c38fd3]">
           Simulations using{" "}
           <a
+            className="text-[#c236aa] hover:text-[#742466]"
             target="_blank"
             rel="noreferrer"
             href="https://universesandbox.com/"
@@ -52,7 +53,7 @@ export default function DiscoverSection({ classes }) {
             height={"420%"}
             width={"880%"}
             src={SimulationGif}
-            className={classes.SimulationGif}
+            className="rounded-[50px]"
             alt="UniverseSandbox2 - GIF"
             title="UniverseSandbox2 - GIF"
             unoptimized={true}
