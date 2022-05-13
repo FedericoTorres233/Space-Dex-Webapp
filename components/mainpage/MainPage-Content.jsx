@@ -11,7 +11,7 @@ export default function MainPageContent() {
       </ParallaxLayer>
 
       <ParallaxLayer offset={4} speed={0.5}>
-        <Contribute classes={classes} />
+        <Contribute />
       </ParallaxLayer>
     </div>
   );

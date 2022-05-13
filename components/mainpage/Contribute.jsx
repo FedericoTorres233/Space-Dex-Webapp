@@ -1,17 +1,17 @@
 import ContactItem from "./ContactItem";
 import Emoji from "../utils/Emoji";
 
-export default function Contribute({classes}) {
+export default function Contribute() {
   return (
     <>
-      <h4 className={classes.contacth4}>
+      <h4 className="py-0 px-40 grid place-items-center text-6xl text-white">
         <strong>
           Contribute to this project <Emoji symbol=":satellite:" />
         </strong>
       </h4>
-      <div className={classes.contactMe}>
+      <div className="w-full">
         <nav>
-          <ul className={classes.contactMeNav}>
+          <ul className="flex justify-around items-center list-none">
             <ContactItem
               type={"github"}
               text_below={"Pull Request"}
